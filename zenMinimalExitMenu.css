@@ -12,6 +12,17 @@
     transition: all 100ms;
 }
 
+/* Remove ícones dos botões */
+.titlebar-button > image,
+.titlebar-button > svg,
+.titlebar-button > img,
+.titlebar-button::before,
+.titlebar-button::after {
+    display: none !important;
+    visibility: hidden !important;
+    content: none !important;
+}
+
 .titlebar-min {
     background-color: hsl(130, 50%, 40%) !important;
 }
@@ -22,10 +33,6 @@
 
 .titlebar-close {
     background-color: hsl(0, 50%, 50%) !important;
-}
-
-.titlebar-button > image {
-    visibility: collapse !important;
 }
 
 @media (-moz-bool-pref: "theme.zen-minimal-exit-menu.enable-macos-identic") {
