@@ -7,11 +7,5 @@
             "macos"
         ],
         "type": "checkbox"
-    },
-    {
-        "property": "theme.zen-minimal-exit-menu.enable-icon-visibility",
-        "label": "Shows the window icons.",
-        "defaultValue": "false",
-        "type": "checkbox"
     }
 ]
